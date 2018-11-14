@@ -4,8 +4,11 @@ This repo is based on the ninety nine scala problems replicated here: http://ape
 
 ## Purpose of this Repo/Project
 
-This project provides the start of the function and an associated unit test.
-As you progress through the problems uncomment the associated test.
+This project provides an unimplemented function and an associated unit test.
+
+For each problem, uncomment the associated unit test, (which should fail) and then implement the function to get the test to pass.
+
+### Running the tests
 
 So you don't have to keep running:
 
