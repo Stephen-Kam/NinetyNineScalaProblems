@@ -5,36 +5,36 @@ class WorkingWithLists {
 object P01 {
 
   //P01: Find the last element of a list
-  def last[T](x: List[T]): T = ???
+  def last[T](x: List[T]): T = x.last
 }
 
 object P02 {
 
   //P02: Find the last but one element of a list.
-  def penultimate[T](x: List[T]): T = ???
+  def penultimate[T](x: List[T]): T = x({x.size-2})
 }
 
 object P03 {
 
   //P03: Find the Kth element of a list
-  def nth[T](n: Int, x: List[T]): T = ???
+  def nth[T](n: Int, x: List[T]): T = x(n)
 }
 
 object P04 {
 
   //P04: Find the number of elements of a list
-  def length[T](x: List[T]): Int = ???
+  def length[T](x: List[T]): Int = x.size
 }
 
 object P05 {
 
   //P05: Reverse a list.
-  def reverse[T](x: List[T]): List[T] = ???
+  def reverse[T](x: List[T]): List[T] = x.reverse
 }
 
 object P06 {
 
-  //P06: Reverse a list.
+  //P06: Find out whether it is a palindrome.
   def isPalindrome[T](x: List[T]): List[T] = ???
 }
 

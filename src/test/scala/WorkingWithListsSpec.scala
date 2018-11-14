@@ -8,21 +8,21 @@ class WorkingWithListsSpec extends FlatSpec with Matchers {
     P01.last(list) shouldBe 8
   }
 
-//  it should "return the last but one element" in {
-//    P02.penultimate(list) shouldBe 5
-//  }
-//
-//  it should "return the kth element" in {
-//    P03.nth(3, list) shouldBe 3
-//  }
-//
-//  it should "return the number of elements in the list" in {
-//    P04.length(list) shouldBe 6
-//  }
-//
-//  it should "reverse the list" in {
-//    P05.reverse(list) shouldBe List(8, 5, 3, 2, 1, 1)
-//  }
+  it should "return the last but one element" in {
+    P02.penultimate(list) shouldBe 5
+  }
+
+  it should "return the kth element" in {
+    P03.nth(3, list) shouldBe 3
+  }
+
+  it should "return the number of elements in the list" in {
+    P04.length(list) shouldBe 6
+  }
+
+  it should "reverse the list" in {
+    P05.reverse(list) shouldBe List(8, 5, 3, 2, 1, 1)
+  }
 //
 //  it should "find out whether it is a palindrome" in {
 //    val list = List(1, 2, 3, 2, 1)
